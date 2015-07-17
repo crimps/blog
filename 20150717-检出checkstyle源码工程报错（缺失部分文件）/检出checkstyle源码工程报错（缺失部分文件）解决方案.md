@@ -1,0 +1,2 @@
+##检出checkstyle源码工程报错（缺失部分文件）解决方案
+最近公司小组内部要进行codereview的工作，个人对于codereview的好处还是还是清楚的，但是
