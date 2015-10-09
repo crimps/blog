@@ -10,14 +10,13 @@ Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 ###翻译
 
-
 ###思路
 
 ####解法1：双循环，简单暴力
 时间复杂度：O(n^2)　空间复杂度：O(1)  
 两层循环，遍历两次数组，相加合为target的值的下标就是所需求值  
 
-
+```java
 
     /**
      * 时间复杂度为O(n^2)，空间复杂度为O(1)
@@ -46,11 +45,14 @@ Output: index1=1, index2=2
         return  a;
     }
 
-
+```
 
 
 ####解法2：hashMap
-时间复杂度：O(n)　空间复杂度：O(n)  
+时间复杂度：O(n)　空间复杂度：O(n)    
+将数组转化为hashMap，key为数值，value为数值对应的下标。
+
+```java
 
     /**
      * 时间复杂度O(n)
@@ -79,11 +81,13 @@ Output: index1=1, index2=2
         }
         return a;
     }
-
+```
 
 ####解法3：双指针夹逼
 时间复杂度：O(nlog^n)　空间复杂度：O(n)  
-排序的时间复杂度为O(log^n)，双指针夹逼的时间复杂度为O(n)，选排序再用双指针夹逼，因此时间复杂度为O(nlong^n)  
+排序的时间复杂度为O(log^n)，双指针夹逼的时间复杂度为O(n)，先排序再用双指针夹逼，因此时间复杂度为O(nlong^n)  
+
+```java
 
     /**
      * 时间复杂度O(n*log^n)
@@ -124,6 +128,6 @@ Output: index1=1, index2=2
         return a;
     }
   
-
+```
 
 
