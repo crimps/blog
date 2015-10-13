@@ -25,4 +25,5 @@ PATH=/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/home/x/bin ①
 当然要是一些特殊的环境变量，也需要在脚本的开头一并写明
 
 ##思考
-关于shell环境变量的问题
+关于shell环境变量的问题  
+
