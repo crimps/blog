@@ -27,3 +27,5 @@ PATH=/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/home/x/bin ①
 ##思考
 关于shell环境变量的问题  
 什么是shell环境变量？shell作为内核的一个外壳，通过它我们可以直接把命令行递交给内核，当然内核也会处理后返回。shell有一个父进程，我们执行的任何shell程序，都是由此产生的一个sub-shell（子shell），所谓环境变量其实就是那些会传给子进程的变量。
+
+最后的最后，如果分析得深入一点还涉及到linux启动过程与shell的关系，伪终端与shell的关系。限于本人对linux理解有限就在此瞎BB了，有兴趣的话可以查看《Linux与unix shell编程指南》和《shell十三问》
