@@ -25,4 +25,5 @@ PATH=/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/home/x/bin ①
 当然要是一些特殊的环境变量，也需要在脚本的开头一并写明
 
 ##思考
-关于shell环境变量的问题
+关于shell环境变量的问题  
+什么是shell环境变量？shell作为内核的一个外壳，通过它我们可以直接把命令行递交给内核，当然内核也会处理后返回。shell有一个父进程，我们执行的任何shell程序，都是由此产生的一个sub-shell（子shell），所谓环境变量其实就是那些会传给子进程的变量。
