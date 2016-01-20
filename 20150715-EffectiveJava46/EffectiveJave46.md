@@ -1,1 +1,0 @@
-#Effective Jave 46
