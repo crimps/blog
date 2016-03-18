@@ -1,5 +1,6 @@
-最近push的时候总是提示失败
+最近push的时候总是提示失败:Recv failure: Connection reset by peer
 
+具体信息如下：
 [fatal: unable to access 'http://github.com/userName/projectName.git/': Recv failure: Connection reset by peer] 
 
 ![git提交错误信息](https://raw.githubusercontent.com/damon-cwz/personalBlog/master/%E6%B0%B4%E6%BB%B4%E7%9F%B3%E7%A9%BF/20160301-git%E6%8F%90%E4%BA%A4%E5%87%BA%E7%8E%B0%E5%BC%82%E5%B8%B8/QQ20160301-0%402x.png)
