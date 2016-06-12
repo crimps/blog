@@ -23,10 +23,10 @@ Result result = statement.getObject(3);
 出参的类型为具体对应的类型，结果集的类型为CURSOR。
 ##调用Mssql存储过程
 ###1. 查询语句的写法
-Mssql查询语句要在最外部加上大括号，在存储过程名称部分还要加上方括号
 ```
 String procStr = "{CALL [procNameSpace.procName](?,?)}";
 ```
+Mssql查询语句要在最外部加上大括号，在存储过程名称部分还要加上方括号
 Mssql参数部分，有多少个[入参、出参]就写几个"?",与Oracle不同的是结果集不需要在参数部分体现。
 ###2. 参数赋值及调用
 入参部分与Oracle一致，没有区别。  
@@ -37,7 +37,7 @@ statement = registerOutParameter(2, Types.INTEGER);
 statement.execute();
 int number = statement.getObject(2);
 ```
-结果集：  
+结果集：
 ```
 Result result = statement.executeQuery();
 ```
