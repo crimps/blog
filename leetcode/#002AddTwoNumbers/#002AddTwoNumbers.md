@@ -13,6 +13,7 @@ You are given two linked lists representing two non-negative numbers. The digits
 2. 对于链表的处理也是个重点，用链表的尾插法来处理是个人认为比较好的方式，但是下面给出的示例代码并没有有尾插法来做，那只是个人的偷懒（PS:好吧说实话，那时写的时候忘了尾插法是怎么实现的了，后面一定找个时间用尾插法重新实现一遍）。
 
 ##示例代码
+```
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         //进位标识
         boolean carryFlag = false;
@@ -71,5 +72,5 @@ You are given two linked lists representing two non-negative numbers. The digits
 
         return listNodes.get(0);
     }
-
+```
 
