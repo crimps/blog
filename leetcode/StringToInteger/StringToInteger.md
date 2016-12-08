@@ -13,4 +13,5 @@ If no valid conversion could be performed, a zero value is returned. If the corr
 ### 翻译
 实现atoi方法（将String类型转为int）
 ### 思路
+转换很简单，重点在于对于输入情况考虑的是否全面。
 ### 解法
