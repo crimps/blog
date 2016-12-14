@@ -1,1 +1,0 @@
-pdm、cdm格式文件是数据库设计软件powerDesigen的文件格式，powerdesigne并没有对应的mac版本，因此在mac下查看
