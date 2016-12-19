@@ -7,4 +7,5 @@ PS:此源码是在smshen代码的基础上添加了读取cdm格式功能，[smsh
 [1]:	https://github.com/crimps/ParsePDM
 [2]:	https://github.com/smshen/ParsePDM
 
-[image-1]:	parsePDM%E7%95%8C%E9%9D%A2.png
+[image-1]:	parsePDM界面.png
+
